@@ -77,7 +77,7 @@ while not done:
      y_direction = y_direction * -1
  if x_val <= 10:
      x_direction = x_direction * -1
- if y_val >= 10:
+ if y_val <= 10:
      y_direction = y_direction * -1
  keys = pygame.key.get_pressed()
  ## - the up key or down key has been pressed
